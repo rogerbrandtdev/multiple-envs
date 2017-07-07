@@ -1,3 +1,6 @@
+variable "name" {}
+variable "cidr" {}
+
 module "network" {
   source = "modules/network"
 

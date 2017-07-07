@@ -1,2 +1,6 @@
 .terraform
 *tfstate*
+aws.tf
+awsdott_f
+variables.tfvars
+*.save

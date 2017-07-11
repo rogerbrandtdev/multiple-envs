@@ -1,5 +1,6 @@
 variable "name" {}
 variable "cidr" {}
+variable "provider_aws_region" {}
 
 module "network" {
   source = "modules/network"
